@@ -1023,7 +1023,7 @@
 		)
 		(fp_arc
 			(start 64.20104 22.49932)
-			(mid 64.054473 22.853115)
+			(mid 64.054479 22.85315)
 			(end 63.70066 22.9997)
 			(stroke
 				(width 0.12)
@@ -10384,7 +10384,7 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R23"
-			(at -3.937 0 360)
+			(at -3.937 0 0)
 			(layer "F.SilkS")
 			(uuid "8faca319-9bc6-494a-9589-21ad7196c8d5")
 			(effects
@@ -10395,7 +10395,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.82 360)
+			(at 0 1.82 0)
 			(layer "F.Fab")
 			(uuid "3d8226ec-8fb6-4828-b48e-26e8a3073857")
 			(effects
@@ -10550,7 +10550,7 @@
 			(uuid "762a32fd-03ff-47ed-b0b0-11cefa67a43a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "e5a4a6de-a687-4554-980e-37cc8158cfec")
 			(effects
@@ -12240,7 +12240,7 @@
 		(descr "Fuseholder Clips, 5x20mm Cylinder Fuse, Pins Inline, Horizontal, Keystone 3512P, http://www.keyelco.com/product-pdf.cfm?p=1386")
 		(tags "fuse clip open")
 		(property "Reference" "F1"
-			(at 11.81 -4.5 360)
+			(at 11.81 -4.5 0)
 			(layer "F.SilkS")
 			(uuid "0e05c32e-150d-4420-bf7f-38c8ed0e03ad")
 			(effects
@@ -12251,7 +12251,7 @@
 			)
 		)
 		(property "Value" "5A"
-			(at 11.555 4.5 360)
+			(at 11.555 4.5 0)
 			(layer "F.Fab")
 			(uuid "420f74fd-9806-4670-bd3d-999be85682e3")
 			(effects
@@ -12586,7 +12586,7 @@
 			(uuid "0abfe95e-dcd0-4d30-a61f-0b5c2f80aafd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 11.81 0 360)
+			(at 11.81 0 0)
 			(layer "F.Fab")
 			(uuid "de41f150-1822-4fda-9fb9-430b648b260e")
 			(effects
@@ -16786,7 +16786,7 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R22"
-			(at -3.937 0 360)
+			(at -3.937 0 0)
 			(layer "F.SilkS")
 			(uuid "5ff10bab-2063-47e9-9399-66ef93cb5913")
 			(effects
@@ -16797,7 +16797,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.82 360)
+			(at 0 1.82 0)
 			(layer "F.Fab")
 			(uuid "c364324d-ba5f-4e73-9e3f-3acfed649864")
 			(effects
@@ -16952,7 +16952,7 @@
 			(uuid "f7ec90bb-ef5a-4ff5-8a28-e7d838697280")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "7af08cb2-8a01-438d-a81e-1ba7ba0603cf")
 			(effects
@@ -18897,6 +18897,17 @@
 		(uuid "0896fbc3-88b5-460c-b482-c0ffbd3f37de")
 	)
 	(gr_arc
+		(start 174.49 152.078)
+		(mid 174.337777 153.816184)
+		(end 173.885744 155.501449)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(layer "F.Mask")
+		(uuid "282ef933-6239-40e8-b63c-ea9e93626829")
+	)
+	(gr_arc
 		(start 154.840216 140.593398)
 		(mid 156.983677 139.090717)
 		(end 159.355732 137.983544)
@@ -18906,6 +18917,17 @@
 		)
 		(layer "F.Mask")
 		(uuid "2a280abf-4766-4bb3-9e15-b91088e163c5")
+	)
+	(gr_arc
+		(start 173.885744 155.501449)
+		(mid 173.148478 157.081075)
+		(end 172.1481 158.508669)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Mask")
+		(uuid "895e437c-34cc-495d-813a-d3d5b29346e7")
 	)
 	(gr_arc
 		(start 174.127591 140.583164)
